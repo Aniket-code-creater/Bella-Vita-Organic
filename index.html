@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/57a283df89.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="top-div">Free shipping with 50% offers</div>
+    <div id="nav-div">
+        <nav>
+            <div id="top-nav-div">
+                <div><i class="fa-regular fa-id-badge"></i> login </div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/BVO_220_x_220_480x.png?v=1653304683"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/Brave_220_x_220_480x.png?v=1653304701"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/BVL_220_x_220_480x.png?v=1653304721"
+                        alt="">
+                </div>
+                <div>
+                    <input type="text" placeholder="Search For Product">
+                    <div>
+                        <i class="fa-solid fa-heart-circle-plus"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-nav">
+                <div>SHOP ALL |</div>
+                <div>DIWALI GIVEAWAY |</div>
+                <div>BESTSELLERS |</div>
+                <div>SKIN CARE |</div>
+                <div>HAIR CARE |</div>
+                <div>BODY CARE |</div>
+                <div>PERFUMES |</div>
+                <div>COMBOS |</div>
+                <div>BUILD A BOX |</div>
+            </div>
+        </nav>
+    </div>
+    <hr>
+    <div id="slider-box">
+        <div id="slider">
+            <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/1200X399_desktop_1500x.jpg?v=1664009552"
+                alt="">
+            <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/1200x399_9c065eb1-1986-4a47-a475-036b0bacc02e_1500x.jpg?v=1664274602"
+                alt="">
+            <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/Hydra_Website_banner_1200x399_4f0cfee4-00b0-42bd-9ac5-55d8a235e0ad_1500x.png?v=1658296941"
+                alt="">
+        </div>
+        <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+        </div>
+    </div>
+
+    <div id="baner2">
+        <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/Untitled_design_desktop_1500x.png?v=1659612770"
+            alt="">
+    </div>
+    <div id="slider-box3">
+        <div id="slider3">
+            <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/Offer-Strip-Banner-v2_1500x.jpg?v=1663852851"
+                alt="">
+            <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/mobikwik-1200X80_343c093e-be5c-4345-ad4f-50fb8a3db7ca_1500x.png?v=1662467840"
+                alt="">
+        </div>
+        <div class="indicater-3">
+            <span id="sldr-btn1"></span>
+            <span id="sldr-btn2"></span>
+        </div>
+    </div>
+    <div id="mid-h2">
+        <h2>BESTSELLERS</h2>
+    </div>
+    <div>
+        <div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+    let slide = document.getElementById("slider")
+    let btn1 = document.getElementById("btn1")
+    btn1.addEventListener("click", function () {
+        slide.style.transform = "translateX(0px)";
+        btn1.classList.add("active")
+        btn2.classList.remove("active")
+        btn3.classList.remove("active")
+    })
+    let btn2 = document.getElementById("btn2")
+    btn2.addEventListener("click", function () {
+        slide.style.transform = "translateX(-100%)";
+        btn1.classList.remove("active")
+        btn2.classList.add("active")
+        btn3.classList.remove("active")
+    })
+    let btn3 = document.getElementById("btn3")
+    btn3.addEventListener("click", function () {
+        slide.style.transform = "translateX(-200%)";
+        btn1.classList.remove("active")
+        btn2.classList.remove("active")
+        btn3.classList.add("active")
+
+    })
+    let slider3 = document.getElementById("slider3")
+    let btn4 = document.getElementById("sldr-btn1")
+    btn4.addEventListener("click", function () {
+        slider3.style.transform = "translateX(0px)";
+        btn4.classList.add("active")
+        btn5.classList.remove("active")
+
+    })
+    let btn5 = document.getElementById("sldr-btn2")
+    btn5.addEventListener("click", function () {
+        slider3.style.transform = "translateX(-100%)";
+        btn4.classList.remove("active")
+        btn5.classList.add("active")
+
+    })
+
+
+
+
+</script>
