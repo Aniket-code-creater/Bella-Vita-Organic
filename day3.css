@@ -1,0 +1,404 @@
+#top-div {
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    text-align: center;
+    background-color: #e5f0da;
+    color: #485e4e;
+    margin: auto;
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 550;
+    padding-bottom: -20px;
+}
+
+#nav-div {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 0px solid black;
+    margin-top: 10px;
+
+}
+
+nav>div {
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+
+}
+
+#top-nav-div>div {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    border: 0px solid blue;
+    display: flex;
+
+}
+
+
+#top-nav-div>div:nth-child(2)>img {
+    width: 16%;
+    margin: auto;
+
+}
+
+#top-nav-div>div:nth-child(3)>input {
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+
+#top-nav-div>div:nth-child(3)>div>i {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 0px solid red;
+}
+
+nav>div:nth-child(2) {
+    height: 40px;
+    text-align: center;
+}
+
+
+#bottom-nav {
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+.slider-box {
+    width: 80%;
+    position: relative;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#slider {
+    width: 100%;
+    margin: auto;
+    transition: 0.7s;
+    display: inline-flex;
+
+
+}
+
+#slider>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.indicators {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+}
+
+.indicators span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#baner2 {
+    padding-top: 25px;
+    width: 80%;
+    margin-top: 30px;
+    margin: auto;
+    height: auto;
+    border: 0px solid red;
+
+}
+
+#baner2>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.active {
+    background-color: #fff !important;
+}
+
+#slider-box3 {
+    width: 80%;
+    position: relative;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#slider3 {
+    width: 100%;
+    margin: auto;
+    transition: 0.7s;
+    display: inline-flex;
+}
+
+.indicater-3 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%);
+
+}
+
+.indicater-3 span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#slider3>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.mid-h2 {
+    color: #243027;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#mid-card {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 0px solid red;
+    display: flex;
+    gap: 30px;
+
+}
+
+.card {
+    width: 30%;
+    margin: auto;
+
+    overflow: hidden;
+    border: 0px solid red;
+    cursor: pointer;
+
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+
+#mid-card>.card:nth-child(2)>p {
+    margin-top: -20px;
+    margin-bottom: -18px;
+}
+
+#mid-card>.card:nth-child(3)>p {
+    margin-top: -10px;
+    margin-bottom: -12px;
+}
+
+#mid-card>.card:nth-child(4)>p {
+    margin-top: -15px;
+    margin-bottom: -12px;
+}
+
+.card>div {
+    overflow: hidden;
+}
+
+.card>div>img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 2s;
+}
+
+.card img:hover {
+    transform: scale(1.3);
+
+}
+
+.card>button {
+    margin: auto;
+    width: 100%;
+    background-color: #485e4e;
+    color: white;
+    padding: 10px;
+    font: 30px;
+    font-weight: 700;
+    border: 0px solid gray;
+    border-radius: 10px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.card>p:nth-child(3) {
+    padding-left: 8px;
+    padding-top: -10px;
+}
+
+.card>h3 {
+    padding-left: 8px;
+}
+
+#mid-card-2 {
+    width: 80%;
+    height: auto;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+
+}
+
+#mid-card-2>div {
+    width: 18%;
+    border: 0px solid red;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#mid-card-2>div>img {
+    width: 100%;
+
+}
+
+#mid-card-2>div>div {
+    background-color: #e5f0da;
+    border: 0px solid red;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+
+#mid-card-2>div>div>p {
+    color: #243027;
+    background-color: #e5f0da;
+    padding-top: 10px;
+}
+
+#mid-card-3 {
+    width: 80%;
+    margin: auto;
+    height: 250px;
+    border: 0px solid red;
+    display: flex;
+}
+
+.card-3 {
+    width: 18%;
+    margin: auto;
+    border: 0px solid red;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 100%;
+
+}
+
+.card-3>img {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+#mid-card-4 {
+    width: 80%;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+}
+
+.card-4 {
+    width: 18%;
+    margin: auto;
+    border: 0px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.card-4 img {
+    width: 100%;
+    display: block;
+    transition: transform 2s;
+}
+
+.card-4:hover img {
+    transform: scale(1.3);
+}
+
+.mid-cover {
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+
+#slider-4 {
+    width: 100%;
+    margin: auto;
+    transition: 0.7s;
+    display: inline-flex;
+}
+
+#slider-4>img {
+    width: 230px;
+    height: 180px;
+}
+
+.indicators-3 {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+
+}
+
+.indicators-3 span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(23, 21, 21, 0.5);
+    cursor: pointer;
+}
+
+.active-3 {
+    background-color: #485e4e !important;
+}
+
+#mid-cover-2 {
+    width: 80%;
+    margin: auto;
+    border: 0px solid red;
+    border-radius: 10px;
+
+}
+
+#mid-cover-2 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
