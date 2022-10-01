@@ -1,0 +1,183 @@
+#top-div {
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    text-align: center;
+    background-color: #e5f0da;
+    color: #485e4e;
+    margin: auto;
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 550;
+    padding-bottom: -20px;
+}
+
+#nav-div {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 0px solid black;
+    margin-top: 10px;
+
+}
+
+nav>div {
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+
+}
+
+#top-nav-div>div {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    border: 0px solid blue;
+    display: flex;
+
+}
+
+
+#top-nav-div>div:nth-child(2)>img {
+    width: 16%;
+    margin: auto;
+
+}
+
+#top-nav-div>div:nth-child(3)>input {
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+
+#top-nav-div>div:nth-child(3)>div>i {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 0px solid red;
+}
+
+nav>div:nth-child(2) {
+    height: 40px;
+    text-align: center;
+}
+
+
+#bottom-nav {
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+#slider-box {
+    width: 80%;
+    position: relative;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#slider {
+    width: 100%;
+    margin: auto;
+    transition: 0.7s;
+    display: inline-flex;
+
+
+}
+
+#slider>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.indicators {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+}
+
+.indicators span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#baner2 {
+    padding-top: 25px;
+    width: 80%;
+    margin-top: 30px;
+    margin: auto;
+    height: auto;
+    border: 0px solid red;
+
+}
+
+#baner2>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.active {
+    background-color: #fff !important;
+}
+
+#slider-box3 {
+    width: 80%;
+    position: relative;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#slider3 {
+    width: 100%;
+    margin: auto;
+    transition: 0.7s;
+    display: inline-flex;
+}
+
+.indicater-3 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%);
+
+}
+
+.indicater-3 span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#slider3>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#mid-h2 {
+    color: #475d4b;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
