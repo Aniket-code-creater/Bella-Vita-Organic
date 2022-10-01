@@ -93,6 +93,11 @@ nav>div:nth-child(2) {
     color: #243027;
 }
 
+a {
+    text-decoration: none;
+    color: #243027;
+}
+
 #bottom-nav>div>span {
     font-size: 28px;
 }
@@ -377,4 +382,5 @@ h1 {
 #btm-lst>div:nth-child(3) {
     color: white;
     line-height: 25px;
+    text-align: end;
 }
