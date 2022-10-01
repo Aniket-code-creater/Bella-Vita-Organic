@@ -1,0 +1,300 @@
+#top-div {
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    text-align: center;
+    background-color: #e5f0da;
+    color: #485e4e;
+    margin: auto;
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 550;
+    padding-bottom: -20px;
+}
+
+
+#nav-div {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 0px solid black;
+    margin-top: 10px;
+
+}
+
+nav>div {
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+
+}
+
+#top-nav-div>div {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    border: 0px solid blue;
+    display: flex;
+
+}
+
+#top-nav-div>div:nth-child(1) {
+    font-size: 25px;
+
+}
+
+#top-nav-div>div:nth-child(2) {
+    width: 20%;
+}
+
+
+#top-nav-div>div:nth-child(2)>img {
+    width: 24%;
+    margin: auto;
+
+}
+
+#top-nav-div>div:nth-child(3)>input {
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+#top-nav-div>div:nth-child(3)>div {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 0px solid red;
+    font-size: 22px;
+    gap: 20px;
+}
+
+#top-nav-div>div:nth-child(3) {
+    gap: 20px;
+}
+
+nav>div:nth-child(2) {
+    height: 40px;
+    text-align: center;
+}
+
+
+#bottom-nav {
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    color: #243027;
+}
+
+#bottom-nav>div>span {
+    font-size: 28px;
+}
+
+#first_hr {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #243027;
+}
+
+#form {
+    width: 25%;
+    margin: auto;
+    border: 0px solid red;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+form input {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+
+form button {
+    width: 50%;
+    color: #f2f6ff;
+    background-color: #243027;
+    font-size: 20px;
+    border: 0px solid gray;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#bottom {
+    width: 100%;
+    background-color: #f1f7ec;
+    height: 600px;
+}
+
+#bottom-top {
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    border: 0px solid red;
+    display: flex;
+}
+
+#bottom-top>div {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    border: 0px solid red;
+    padding: 5px;
+    color: #475d4b;
+    line-height: 20px;
+}
+
+#bottom-top>div>h3 {
+    font-weight: 400;
+}
+
+#bottom-top>div>p {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.last-hr {
+    width: 30%;
+    margin-left: -1%;
+    margin-top: -12px;
+    color: green;
+}
+
+#bottom-top>div:nth-child(2) {
+    width: 15%;
+}
+
+#bottom-top>div:nth-child(1) {
+    width: 16%;
+}
+
+#bottom-top>div:nth-child(3) {
+    width: 12%;
+}
+
+#bottom-top>div:nth-child(4) {
+    width: 25%;
+    display: flex;
+}
+
+
+.icons-container {
+    width: 16%;
+    border: 0px solid red;
+    height: 100%;
+}
+
+.icons-container>p:nth-child(1) {
+    padding-top: 50px;
+}
+
+.icons-container>p:nth-child(2) {
+    padding-top: 20px;
+}
+
+#bottom-top>div:nth-child(5)>p {
+    font-size: 16px;
+}
+
+#bottom-top>div:nth-child(5)>input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#bottom-top>div:nth-child(5)>button {
+    width: 50%;
+    padding: 8px;
+    background-color: #475d4b;
+    color: white;
+    border: 0px solid gray;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#bottom-down {
+    margin-top: 10px;
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    border: 0px solid red;
+    line-height: 20px;
+}
+
+#bottom-down>h3 {
+    color: #243027;
+    font-weight: 550;
+}
+
+.last-hr2 {
+    width: 10%;
+    color: green;
+    margin-left: -0.1%;
+    margin-top: -10px;
+
+}
+
+#bottom-down>p>span {
+    font-size: 20px;
+}
+
+#bottom-down>p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #243027;
+    line-height: 25px;
+}
+
+#last-bottom-part {
+    width: 100%;
+    height: 80px;
+    background-color: #485e4e;
+}
+
+#btm-lst {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btm-lst>div {
+    width: 30%;
+    border: 0px solid red;
+    height: 100%;
+    display: flex;
+
+}
+
+#btm-lst>div:nth-child(1)>img {
+    width: 75%;
+    height: 12%;
+    padding: 10px;
+
+}
+
+#btm-lst>div:nth-child(2) {
+    gap: 15px;
+    font-size: 18px;
+    padding-top: 15px;
+    color: white;
+}
