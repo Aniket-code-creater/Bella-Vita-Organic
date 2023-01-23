@@ -12,7 +12,8 @@ It is an e-commerce website for Online retailers of beauty and skincare products
 
 Landing Page:
 
-<a href="https://ibb.co/gJS6xCS"><img src="https://i.ibb.co/gJS6xCS/Bella-vita-organic-website-landing-page.png" alt="Bella-vita-organic-website-landing-page" border="0"></a>
+![image](https://user-images.githubusercontent.com/112688918/214110667-77ccc8ff-d069-424d-9a06-f69642fabb8a.png)
+
 
 
  
