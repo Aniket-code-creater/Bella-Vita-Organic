@@ -14,6 +14,11 @@ Landing Page:
 
 ![image](https://user-images.githubusercontent.com/112688918/214110667-77ccc8ff-d069-424d-9a06-f69642fabb8a.png)
 
+Features:
+ 1. Login/Signup in feature.
+ 2. Landing Page.
+ 3. Product Page .
+
 
 
  
